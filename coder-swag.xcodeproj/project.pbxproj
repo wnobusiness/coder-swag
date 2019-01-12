@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE53FC8C21E96DBB008B9900 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53FC8B21E96DBB008B9900 /* Category.swift */; };
+		CE53FC8F21E970BB008B9900 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53FC8E21E970BB008B9900 /* DataService.swift */; };
 		CE7A9FC321E856E8009051F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A9FC221E856E8009051F8 /* AppDelegate.swift */; };
 		CE7A9FC521E856E8009051F8 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A9FC421E856E8009051F8 /* CategoriesVC.swift */; };
 		CE7A9FC821E856E8009051F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7A9FC621E856E8009051F8 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE53FC8B21E96DBB008B9900 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		CE53FC8E21E970BB008B9900 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		CE7A9FBF21E856E8009051F8 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7A9FC221E856E8009051F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE7A9FC421E856E8009051F8 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
@@ -37,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE53FC8D21E970A6008B9900 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CE53FC8E21E970BB008B9900 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		CE7A9FB621E856E8009051F8 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +68,7 @@
 		CE7A9FC121E856E8009051F8 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				CE53FC8D21E970A6008B9900 /* Services */,
 				CE7A9FD621E85DBA009051F8 /* View */,
 				CE7A9FD521E85DB5009051F8 /* Model */,
 				CE7A9FD421E85D9D009051F8 /* Controller */,
@@ -79,6 +92,7 @@
 		CE7A9FD521E85DB5009051F8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CE53FC8B21E96DBB008B9900 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +179,8 @@
 				CE7A9FC521E856E8009051F8 /* CategoriesVC.swift in Sources */,
 				CE7A9FC321E856E8009051F8 /* AppDelegate.swift in Sources */,
 				CE7A9FD821E85E1B009051F8 /* CategoryCell.swift in Sources */,
+				CE53FC8C21E96DBB008B9900 /* Category.swift in Sources */,
+				CE53FC8F21E970BB008B9900 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
