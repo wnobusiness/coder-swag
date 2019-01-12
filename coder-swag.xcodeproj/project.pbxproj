@@ -15,6 +15,7 @@
 		CE7A9FCA21E856E9009051F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7A9FC921E856E9009051F8 /* Assets.xcassets */; };
 		CE7A9FCD21E856E9009051F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7A9FCB21E856E9009051F8 /* LaunchScreen.storyboard */; };
 		CE7A9FD821E85E1B009051F8 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A9FD721E85E1B009051F8 /* CategoryCell.swift */; };
+		CE81708D21EA58B700B948A8 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81708C21EA58B700B948A8 /* ProductCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CE7A9FCC21E856E9009051F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE7A9FCE21E856E9009051F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE7A9FD721E85E1B009051F8 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		CE81708C21EA58B700B948A8 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				CE7A9FD721E85E1B009051F8 /* CategoryCell.swift */,
+				CE81708C21EA58B700B948A8 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				CE7A9FC521E856E8009051F8 /* CategoriesVC.swift in Sources */,
 				CE7A9FC321E856E8009051F8 /* AppDelegate.swift in Sources */,
 				CE7A9FD821E85E1B009051F8 /* CategoryCell.swift in Sources */,
+				CE81708D21EA58B700B948A8 /* ProductCell.swift in Sources */,
 				CE53FC8C21E96DBB008B9900 /* Category.swift in Sources */,
 				CE53FC8F21E970BB008B9900 /* DataService.swift in Sources */,
 			);
