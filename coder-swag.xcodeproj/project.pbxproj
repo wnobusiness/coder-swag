@@ -17,6 +17,7 @@
 		CE7A9FD821E85E1B009051F8 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A9FD721E85E1B009051F8 /* CategoryCell.swift */; };
 		CE81708D21EA58B700B948A8 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81708C21EA58B700B948A8 /* ProductCell.swift */; };
 		CE81708F21EA5A5700B948A8 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81708E21EA5A5700B948A8 /* Product.swift */; };
+		CEC5D72E21EABC5400FFDB5C /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5D72D21EABC5400FFDB5C /* ProductsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		CE7A9FD721E85E1B009051F8 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		CE81708C21EA58B700B948A8 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		CE81708E21EA5A5700B948A8 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		CEC5D72D21EABC5400FFDB5C /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				CE7A9FC421E856E8009051F8 /* CategoriesVC.swift */,
+				CEC5D72D21EABC5400FFDB5C /* ProductsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				CE7A9FC321E856E8009051F8 /* AppDelegate.swift in Sources */,
 				CE7A9FD821E85E1B009051F8 /* CategoryCell.swift in Sources */,
 				CE81708D21EA58B700B948A8 /* ProductCell.swift in Sources */,
+				CEC5D72E21EABC5400FFDB5C /* ProductsVC.swift in Sources */,
 				CE53FC8C21E96DBB008B9900 /* Category.swift in Sources */,
 				CE53FC8F21E970BB008B9900 /* DataService.swift in Sources */,
 				CE81708F21EA5A5700B948A8 /* Product.swift in Sources */,
